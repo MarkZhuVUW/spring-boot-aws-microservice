@@ -5,8 +5,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AuthController {
-    @GetMapping("/users")
-    public String getAuth() {
-        return "";
-    }
+
+  @GetMapping("/users")
+  public String getUsers() {
+    return "1111";
+  }
+
+
 }

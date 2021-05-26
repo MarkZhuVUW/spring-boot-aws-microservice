@@ -30,5 +30,3 @@ build/
 
 ### VS Code ###
 .vscode/
-.idea/spring-boot-aws-microservice.iml
-.idea/workspace.xml

@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.markz</groupId>
     <artifactId>EmployerTracker</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>EmployerTracker</name>
     <description>Employer tracker Spring Boot microservice</description>
     <properties>
@@ -37,7 +37,17 @@
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
         </dependency>
+
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${project.parent.version}</version>
+            </plugin>
+        </plugins>
+    </build>
     <repositories>
         <repository>
             <id>spring-milestones</id>

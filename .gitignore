@@ -14,11 +14,9 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-# removed .idea from gitignore as I want to share settings on different machines.
-#**/.idea/workspace.xml
-#**/.idea/tasks.xml*.iws
-#*.iml
-#*.ipr
+.idea
+*.iml
+*.ipr
 
 ### NetBeans ###
 /nbproject/private/

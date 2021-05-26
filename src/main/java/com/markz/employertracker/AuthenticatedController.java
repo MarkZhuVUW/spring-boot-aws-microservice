@@ -1,8 +1,6 @@
-package com.markz.EmployerTracker;
+package com.markz.employertracker;
 
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class AuthenticatedController {
-
-}
+public class AuthenticatedController {}
